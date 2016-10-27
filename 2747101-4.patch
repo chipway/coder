@@ -1,0 +1,87 @@
+diff --git a/coder_sniffer/Drupal/Sniffs/Files/LineLengthSniff.php b/coder_sniffer/Drupal/Sniffs/Files/LineLengthSniff.php
+index 140f799..04ed292 100644
+--- a/coder_sniffer/Drupal/Sniffs/Files/LineLengthSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Files/LineLengthSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Files_LineLengthSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+@@ -106,8 +104,8 @@ class Drupal_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengt
+     /**
+      * Returns the length of a defined line.
+      *
+-     * @param PHP_CodeSniffer_File $phpcsFile
+-     * @param int                  $currentLine
++     * @param PHP_CodeSniffer_File $phpcsFile   The file being scanned.
++     * @param int                  $currentLine The current line.
+      *
+      * @return int
+      */
+diff --git a/coder_sniffer/Drupal/Sniffs/Files/TxtFileLineLengthSniff.php b/coder_sniffer/Drupal/Sniffs/Files/TxtFileLineLengthSniff.php
+index f8445d7..216a72d 100644
+--- a/coder_sniffer/Drupal/Sniffs/Files/TxtFileLineLengthSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Files/TxtFileLineLengthSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Files_TxtFileLineLengthSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Functions/FunctionDeclarationSniff.php b/coder_sniffer/Drupal/Sniffs/Functions/FunctionDeclarationSniff.php
+index 0d0e5d8..b539a64 100644
+--- a/coder_sniffer/Drupal/Sniffs/Functions/FunctionDeclarationSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Functions/FunctionDeclarationSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Functions_FunctionDeclarationSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/EmptyLinesSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/EmptyLinesSniff.php
+index d4bfa96..ae8fabf 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/EmptyLinesSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/EmptyLinesSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_EmptyLinesSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Project.php b/coder_sniffer/DrupalPractice/Project.php
+index 9564c10..5c6df02 100644
+--- a/coder_sniffer/DrupalPractice/Project.php
++++ b/coder_sniffer/DrupalPractice/Project.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Project
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+@@ -106,8 +104,8 @@ class DrupalPractice_Project
+     /**
+      * Helper method to sort array values by string length with usort().
+      *
+-     * @param string $a
+-     * @param string $b
++     * @param string $a First string.
++     * @param string $b Second string.
+      *
+      * @return int
+      */
