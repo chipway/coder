@@ -1,0 +1,1118 @@
+diff --git a/coder_sniffer/Drupal/Sniffs/Array/ArraySniff.php b/coder_sniffer/Drupal/Sniffs/Array/ArraySniff.php
+index 996b6a2..f9fcd43 100644
+--- a/coder_sniffer/Drupal/Sniffs/Array/ArraySniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Array/ArraySniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Array_ArraySniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/CSS/ClassDefinitionNameSpacingSniff.php b/coder_sniffer/Drupal/Sniffs/CSS/ClassDefinitionNameSpacingSniff.php
+index d5c6c6f..4184ac6 100644
+--- a/coder_sniffer/Drupal/Sniffs/CSS/ClassDefinitionNameSpacingSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/CSS/ClassDefinitionNameSpacingSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_CSS_ClassDefinitionNameSpacingSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/CSS/ColourDefinitionSniff.php b/coder_sniffer/Drupal/Sniffs/CSS/ColourDefinitionSniff.php
+index ee5acb1..e80021a 100644
+--- a/coder_sniffer/Drupal/Sniffs/CSS/ColourDefinitionSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/CSS/ColourDefinitionSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_CSS_ColourDefinitionSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Classes/ClassCreateInstanceSniff.php b/coder_sniffer/Drupal/Sniffs/Classes/ClassCreateInstanceSniff.php
+index 28db427..0c51219 100644
+--- a/coder_sniffer/Drupal/Sniffs/Classes/ClassCreateInstanceSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Classes/ClassCreateInstanceSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Class create instance Test.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Classes/ClassDeclarationSniff.php b/coder_sniffer/Drupal/Sniffs/Classes/ClassDeclarationSniff.php
+index 5eda653..d4c49c2 100644
+--- a/coder_sniffer/Drupal/Sniffs/Classes/ClassDeclarationSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Classes/ClassDeclarationSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Class Declaration Test.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Classes/FullyQualifiedNamespaceSniff.php b/coder_sniffer/Drupal/Sniffs/Classes/FullyQualifiedNamespaceSniff.php
+index 7d9ff6a..5718779 100644
+--- a/coder_sniffer/Drupal/Sniffs/Classes/FullyQualifiedNamespaceSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Classes/FullyQualifiedNamespaceSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Classes_FullyQualifiedNamespaceSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Classes/InterfaceNameSniff.php b/coder_sniffer/Drupal/Sniffs/Classes/InterfaceNameSniff.php
+index 2774e22..2852da2 100644
+--- a/coder_sniffer/Drupal/Sniffs/Classes/InterfaceNameSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Classes/InterfaceNameSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Classes_InterfaceNameSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Classes/UnusedUseStatementSniff.php b/coder_sniffer/Drupal/Sniffs/Classes/UnusedUseStatementSniff.php
+index f52da99..752be20 100644
+--- a/coder_sniffer/Drupal/Sniffs/Classes/UnusedUseStatementSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Classes/UnusedUseStatementSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Classes_UnusedUseStatementSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Commenting/ClassCommentSniff.php b/coder_sniffer/Drupal/Sniffs/Commenting/ClassCommentSniff.php
+index b511ef2..ec4c0c7 100644
+--- a/coder_sniffer/Drupal/Sniffs/Commenting/ClassCommentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Commenting/ClassCommentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Parses and verifies the class doc comment.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentSniff.php b/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentSniff.php
+index 25542cd..10fbe8f 100644
+--- a/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Ensures doc blocks follow basic formatting.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentStarSniff.php b/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentStarSniff.php
+index f8a0e9a..d614d88 100644
+--- a/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentStarSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Commenting/DocCommentStarSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Commenting_DocCommentStarSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Commenting/FileCommentSniff.php b/coder_sniffer/Drupal/Sniffs/Commenting/FileCommentSniff.php
+index ab49c86..07d0211 100644
+--- a/coder_sniffer/Drupal/Sniffs/Commenting/FileCommentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Commenting/FileCommentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Parses and verifies the doc comments for files.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Commenting/FunctionCommentSniff.php b/coder_sniffer/Drupal/Sniffs/Commenting/FunctionCommentSniff.php
+index a44027e..8c2cae6 100644
+--- a/coder_sniffer/Drupal/Sniffs/Commenting/FunctionCommentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Commenting/FunctionCommentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Parses and verifies the doc comments for functions.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Commenting/HookCommentSniff.php b/coder_sniffer/Drupal/Sniffs/Commenting/HookCommentSniff.php
+index b01b181..4cf261e 100644
+--- a/coder_sniffer/Drupal/Sniffs/Commenting/HookCommentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Commenting/HookCommentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Ensures hook comments on function are correct.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Commenting/InlineCommentSniff.php b/coder_sniffer/Drupal/Sniffs/Commenting/InlineCommentSniff.php
+index 16c0e8c..1ce99ad 100644
+--- a/coder_sniffer/Drupal/Sniffs/Commenting/InlineCommentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Commenting/InlineCommentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * PHP_CodeSniffer_Sniffs_Drupal_Commenting_InlineCommentSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/ControlStructures/ControlSignatureSniff.php b/coder_sniffer/Drupal/Sniffs/ControlStructures/ControlSignatureSniff.php
+index 49fa2b2..43f35eb 100644
+--- a/coder_sniffer/Drupal/Sniffs/ControlStructures/ControlSignatureSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/ControlStructures/ControlSignatureSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Verifies that control statements conform to their coding standards.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/ControlStructures/ElseIfSniff.php b/coder_sniffer/Drupal/Sniffs/ControlStructures/ElseIfSniff.php
+index 7c3a60e..734453d 100644
+--- a/coder_sniffer/Drupal/Sniffs/ControlStructures/ElseIfSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/ControlStructures/ElseIfSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Verifies that control statements conform to their coding standards.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/ControlStructures/InlineControlStructureSniff.php b/coder_sniffer/Drupal/Sniffs/ControlStructures/InlineControlStructureSniff.php
+index 2b6bae5..c2dd39a 100644
+--- a/coder_sniffer/Drupal/Sniffs/ControlStructures/InlineControlStructureSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/ControlStructures/InlineControlStructureSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_ControlStructures_InlineControlStructureSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Files/EndFileNewlineSniff.php b/coder_sniffer/Drupal/Sniffs/Files/EndFileNewlineSniff.php
+index 21b5cde..4f7d7b8 100644
+--- a/coder_sniffer/Drupal/Sniffs/Files/EndFileNewlineSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Files/EndFileNewlineSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Files_EndFileNewlineSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Files/FileEncodingSniff.php b/coder_sniffer/Drupal/Sniffs/Files/FileEncodingSniff.php
+index b5198f4..a071f1c 100644
+--- a/coder_sniffer/Drupal/Sniffs/Files/FileEncodingSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Files/FileEncodingSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Files_FileEncodingSniff.
+  *
+- * PHP version 5
+- *
+  * @category  PHP
+  * @package   PHP_CodeSniffer
+  * @author    Klaus Purer <klaus.purer@mail.com>
+diff --git a/coder_sniffer/Drupal/Sniffs/Formatting/MultiLineAssignmentSniff.php b/coder_sniffer/Drupal/Sniffs/Formatting/MultiLineAssignmentSniff.php
+index 9547714..c7a5206 100644
+--- a/coder_sniffer/Drupal/Sniffs/Formatting/MultiLineAssignmentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Formatting/MultiLineAssignmentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * PEAR_Sniffs_Functions_FunctionDeclarationSniff.
+  *
+- * PHP version 5
+- *
+  * @category  PHP
+  * @package   PHP_CodeSniffer
+  * @author    Greg Sherwood <gsherwood@squiz.net>
+diff --git a/coder_sniffer/Drupal/Sniffs/Formatting/SpaceInlineIfSniff.php b/coder_sniffer/Drupal/Sniffs/Formatting/SpaceInlineIfSniff.php
+index b2384c8..138f5b1 100644
+--- a/coder_sniffer/Drupal/Sniffs/Formatting/SpaceInlineIfSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Formatting/SpaceInlineIfSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Formatting_SpaceInlineIfSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Formatting/SpaceUnaryOperatorSniff.php b/coder_sniffer/Drupal/Sniffs/Formatting/SpaceUnaryOperatorSniff.php
+index ad4a698..91bca8c 100644
+--- a/coder_sniffer/Drupal/Sniffs/Formatting/SpaceUnaryOperatorSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Formatting/SpaceUnaryOperatorSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Formatting_SpaceUnaryOperatorSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Functions/DiscouragedFunctionsSniff.php b/coder_sniffer/Drupal/Sniffs/Functions/DiscouragedFunctionsSniff.php
+index 8954b55..d4bb9f0 100644
+--- a/coder_sniffer/Drupal/Sniffs/Functions/DiscouragedFunctionsSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Functions/DiscouragedFunctionsSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Functions_DiscouragedFunctionsSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/InfoFiles/AutoAddedKeysSniff.php b/coder_sniffer/Drupal/Sniffs/InfoFiles/AutoAddedKeysSniff.php
+index 097f421..d3d0009 100644
+--- a/coder_sniffer/Drupal/Sniffs/InfoFiles/AutoAddedKeysSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/InfoFiles/AutoAddedKeysSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_InfoFiles_RequiredSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/InfoFiles/ClassFilesSniff.php b/coder_sniffer/Drupal/Sniffs/InfoFiles/ClassFilesSniff.php
+index d1cbb93..035b219 100644
+--- a/coder_sniffer/Drupal/Sniffs/InfoFiles/ClassFilesSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/InfoFiles/ClassFilesSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_InfoFiles_ClassFilesSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/InfoFiles/DuplicateEntrySniff.php b/coder_sniffer/Drupal/Sniffs/InfoFiles/DuplicateEntrySniff.php
+index ec26c21..d499eea 100644
+--- a/coder_sniffer/Drupal/Sniffs/InfoFiles/DuplicateEntrySniff.php
++++ b/coder_sniffer/Drupal/Sniffs/InfoFiles/DuplicateEntrySniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_InfoFiles_DuplicateEntrySniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/InfoFiles/RequiredSniff.php b/coder_sniffer/Drupal/Sniffs/InfoFiles/RequiredSniff.php
+index 054d44a..12429f1 100644
+--- a/coder_sniffer/Drupal/Sniffs/InfoFiles/RequiredSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/InfoFiles/RequiredSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_InfoFiles_RequiredSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidClassNameSniff.php b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidClassNameSniff.php
+index 1970ca0..0d6a90a 100644
+--- a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidClassNameSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidClassNameSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_NamingConventions_ValidClassNameSniff.
+  *
+- * PHP version 5
+- *
+  * @category  PHP
+  * @package   PHP_CodeSniffer
+  * @author    Greg Sherwood <gsherwood@squiz.net>
+diff --git a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidFunctionNameSniff.php b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidFunctionNameSniff.php
+index a27cb3e..b0b0f4a 100644
+--- a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidFunctionNameSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidFunctionNameSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_NamingConventions_ValidFunctionNameSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidGlobalSniff.php b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidGlobalSniff.php
+index 197306a..1422c48 100644
+--- a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidGlobalSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidGlobalSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_NamingConventions_ValidGlobalSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidVariableNameSniff.php b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidVariableNameSniff.php
+index 3b3551e..d092ea8 100644
+--- a/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidVariableNameSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/NamingConventions/ValidVariableNameSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_NamingConventions_ValidVariableNameSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Scope/MethodScopeSniff.php b/coder_sniffer/Drupal/Sniffs/Scope/MethodScopeSniff.php
+index 96b0685..6831beb 100644
+--- a/coder_sniffer/Drupal/Sniffs/Scope/MethodScopeSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Scope/MethodScopeSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Verifies that class/interface/trait methods have scope modifiers.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/ConstantNameSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/ConstantNameSniff.php
+index 96b8f70..fbd0da2 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/ConstantNameSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/ConstantNameSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_ConstantNameSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/EmptyInstallSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/EmptyInstallSniff.php
+index 7a5e46c..a042fbc 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/EmptyInstallSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/EmptyInstallSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_EmptyInstallSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionAliasSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionAliasSniff.php
+index f33781b..e5f9a4e 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionAliasSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionAliasSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_FunctionAliasSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionCall.php b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionCall.php
+index ba0c5e7..2570d02 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionCall.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionCall.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_FunctionCall.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionDefinition.php b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionDefinition.php
+index d29188c..02ab303 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionDefinition.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionDefinition.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_FunctionDefinition.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionTSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionTSniff.php
+index cb0893f..18ae974 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionTSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionTSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_FunctionTSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionWatchdogSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionWatchdogSniff.php
+index ef069ce..5f54923 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/FunctionWatchdogSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/FunctionWatchdogSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semanitcs_FunctionWatchdogSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/InstallHooksSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/InstallHooksSniff.php
+index b1f3ea3..96b5315 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/InstallHooksSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/InstallHooksSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_InstallHooksSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/LStringTranslatableSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/LStringTranslatableSniff.php
+index 1063f24..2240d64 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/LStringTranslatableSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/LStringTranslatableSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semanitcs_LStringTranslatableSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/PregSecuritySniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/PregSecuritySniff.php
+index c20752b..0a9bd69 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/PregSecuritySniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/PregSecuritySniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_PregSecuritySniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/RemoteAddressSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/RemoteAddressSniff.php
+index bde799a..b68aac6 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/RemoteAddressSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/RemoteAddressSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_RemoteAddressSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/TInHookMenuSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/TInHookMenuSniff.php
+index 0c3dddc..bb25f37 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/TInHookMenuSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/TInHookMenuSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semanitcs_TInHookMenuSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Semantics/TInHookSchemaSniff.php b/coder_sniffer/Drupal/Sniffs/Semantics/TInHookSchemaSniff.php
+index 447cb3c..e10ce0a 100644
+--- a/coder_sniffer/Drupal/Sniffs/Semantics/TInHookSchemaSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Semantics/TInHookSchemaSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semanitcs_TInHookSchemaSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/Strings/UnnecessaryStringConcatSniff.php b/coder_sniffer/Drupal/Sniffs/Strings/UnnecessaryStringConcatSniff.php
+index a0b203d..69d12a8 100644
+--- a/coder_sniffer/Drupal/Sniffs/Strings/UnnecessaryStringConcatSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/Strings/UnnecessaryStringConcatSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Generic_Sniffs_Strings_UnnecessaryStringConcatSniff.
+  *
+- * PHP version 5
+- *
+  * @category  PHP
+  * @package   PHP_CodeSniffer
+  * @author    Greg Sherwood <gsherwood@squiz.net>
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/CloseBracketSpacingSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/CloseBracketSpacingSniff.php
+index f8155f1..84753b3 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/CloseBracketSpacingSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/CloseBracketSpacingSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_CloseBracketSpacingSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/CommaSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/CommaSniff.php
+index c5002ae..87c069f 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/CommaSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/CommaSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_CommaSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/NamespaceSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/NamespaceSniff.php
+index 75274e4..3da0e5a 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/NamespaceSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/NamespaceSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_NamespaceSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorIndentSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorIndentSniff.php
+index ba24fc4..50f20b9 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorIndentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorIndentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_ObjectOperatorIndentSniff.
+  *
+- * PHP version 5
+- *
+  * @category  PHP
+  * @package   PHP_CodeSniffer
+  * @author    Greg Sherwood <gsherwood@squiz.net>
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php
+index 12f844a..3d42e2f 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ObjectOperatorSpacingSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_ObjectOperatorSpacingSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/OpenBracketSpacingSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/OpenBracketSpacingSniff.php
+index c0fcaed..07c5b6e 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/OpenBracketSpacingSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/OpenBracketSpacingSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_OpenBracketSpacingSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/OperatorSpacingSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/OperatorSpacingSniff.php
+index 46e5fe3..e705541 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/OperatorSpacingSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/OperatorSpacingSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_WhiteSpace_OperatorSpacingSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php
+index caf75da..ab5d014 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeClosingBraceSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Whitespace_ScopeClosingBraceSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://Drupal.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeIndentSniff.php b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeIndentSniff.php
+index 0a3cf43..10f54f2 100644
+--- a/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeIndentSniff.php
++++ b/coder_sniffer/Drupal/Sniffs/WhiteSpace/ScopeIndentSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Whitespace_ScopeIndentSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/CodeAnalysis/VariableAnalysisSniff.php b/coder_sniffer/DrupalPractice/Sniffs/CodeAnalysis/VariableAnalysisSniff.php
+index faa2011..64757fd 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/CodeAnalysis/VariableAnalysisSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/CodeAnalysis/VariableAnalysisSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * This file is part of the VariableAnalysis addon for PHP_CodeSniffer.
+  *
+- * PHP version 5
+- *
+  * @category  PHP
+  * @package   PHP_CodeSniffer
+  * @author    Sam Graham <php-codesniffer-variableanalysis BLAHBLAH illusori.co.uk>
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/Commenting/AuthorTagSniff.php b/coder_sniffer/DrupalPractice/Sniffs/Commenting/AuthorTagSniff.php
+index 464c449..f9c7dc1 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/Commenting/AuthorTagSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/Commenting/AuthorTagSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_Commenting_AuthorTagSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/Commenting/CommentEmptyLineSniff.php b/coder_sniffer/DrupalPractice/Sniffs/Commenting/CommentEmptyLineSniff.php
+index 3a3d958..1ffd149 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/Commenting/CommentEmptyLineSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/Commenting/CommentEmptyLineSniff.php
+@@ -3,8 +3,6 @@
+ /**
+  * DrupalPractice_Sniffs_Commenting_CommentEmptyLineSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalConstantSniff.php b/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalConstantSniff.php
+index f71fbf6..b0284dc 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalConstantSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalConstantSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_Constants_GlobalConstantSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalDefineSniff.php b/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalDefineSniff.php
+index 5d4d6ec..39454a6 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalDefineSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/Constants/GlobalDefineSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_Constants_GlobalDefineSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CheckPlainSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CheckPlainSniff.php
+index e6b43a9..ad2ddc2 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CheckPlainSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CheckPlainSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_FunctionCalls_CheckPlainSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CurlSslVerifierSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CurlSslVerifierSniff.php
+index 9d72999..f88bd9f 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CurlSslVerifierSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/CurlSslVerifierSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_FunctionCalls_CurlSslVerifierSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbQuerySniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbQuerySniff.php
+index bc52b10..c0ce8ab 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbQuerySniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbQuerySniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_FunctionCalls_DbQuerySniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbSelectBracesSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbSelectBracesSniff.php
+index 8dad288..708d709 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbSelectBracesSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DbSelectBracesSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_FunctionCalls_DbSelectBracesSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DefaultValueSanitizeSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DefaultValueSanitizeSniff.php
+index 396dcbe..e4e3842 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DefaultValueSanitizeSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/DefaultValueSanitizeSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionCalls_DefaultValueSanitizeSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/FormErrorTSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/FormErrorTSniff.php
+index 4014bfe..66db0b0 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/FormErrorTSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/FormErrorTSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionCalls_FormErrorTSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/LCheckPlainSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/LCheckPlainSniff.php
+index 05784b9..679c617 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/LCheckPlainSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/LCheckPlainSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_FunctionCalls_LCheckPlainSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/MessageTSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/MessageTSniff.php
+index 020f016..000bab9 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/MessageTSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/MessageTSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionCalls_MessageTSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/TCheckPlainSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/TCheckPlainSniff.php
+index faa0afa..7ebd2ef 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/TCheckPlainSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/TCheckPlainSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * Drupal_Sniffs_Semantics_FunctionTSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/ThemeSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/ThemeSniff.php
+index 757463d..8342642 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/ThemeSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/ThemeSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionCalls_ThemeSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/VariableSetSanitizeSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/VariableSetSanitizeSniff.php
+index ef9e985..9b2535f 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/VariableSetSanitizeSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionCalls/VariableSetSanitizeSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionCalls_VariableSetSanitizeSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/AccessHookMenuSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/AccessHookMenuSniff.php
+index 2ccab46..d75975f 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/AccessHookMenuSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/AccessHookMenuSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionDefinitions_AccessHookMenuSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/FormAlterDocSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/FormAlterDocSniff.php
+index 029a6a4..7e51885 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/FormAlterDocSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/FormAlterDocSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionDefinitions_FormAlterDocSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/HookInitCssSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/HookInitCssSniff.php
+index ef252b1..e9e338f 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/HookInitCssSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/HookInitCssSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionDefinitions_HookInitCssSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/InstallTSniff.php b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/InstallTSniff.php
+index 3f8d21e..94bcaf6 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/InstallTSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/FunctionDefinitions/InstallTSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_FunctionCalls_InstallTSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/General/AccessAdminPagesSniff.php b/coder_sniffer/DrupalPractice/Sniffs/General/AccessAdminPagesSniff.php
+index 7f9e126..4bab453 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/General/AccessAdminPagesSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/General/AccessAdminPagesSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_General_AccessAdminPagesSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/General/ClassNameSniff.php b/coder_sniffer/DrupalPractice/Sniffs/General/ClassNameSniff.php
+index d582b8e..b2ea155 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/General/ClassNameSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/General/ClassNameSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_General_ClassNameSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/General/DescriptionTSniff.php b/coder_sniffer/DrupalPractice/Sniffs/General/DescriptionTSniff.php
+index 9197b41..79244a9 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/General/DescriptionTSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/General/DescriptionTSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_General_DescriptionTSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/General/FormStateInputSniff.php b/coder_sniffer/DrupalPractice/Sniffs/General/FormStateInputSniff.php
+index cbcfed4..97648a6 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/General/FormStateInputSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/General/FormStateInputSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_General_FormStateInputSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/General/LanguageNoneSniff.php b/coder_sniffer/DrupalPractice/Sniffs/General/LanguageNoneSniff.php
+index c69b993..bb10afa 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/General/LanguageNoneSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/General/LanguageNoneSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_General_LanguageNoneSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/General/OptionsTSniff.php b/coder_sniffer/DrupalPractice/Sniffs/General/OptionsTSniff.php
+index 44b11fd..fced8fc 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/General/OptionsTSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/General/OptionsTSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_General_OptionsTSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/General/VariableNameSniff.php b/coder_sniffer/DrupalPractice/Sniffs/General/VariableNameSniff.php
+index 59d5655..9f01aed 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/General/VariableNameSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/General/VariableNameSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_General_VariableNameSniff
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalClassSniff.php b/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalClassSniff.php
+index 431b25e..24b9ee2 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalClassSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalClassSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_Objects_GlobalClassSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalDrupalSniff.php b/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalDrupalSniff.php
+index d4e3316..ddb8c9a 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalDrupalSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalDrupalSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_Objects_GlobalDrupalSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
+diff --git a/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalFunctionSniff.php b/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalFunctionSniff.php
+index a61b7c8..940fc9c 100644
+--- a/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalFunctionSniff.php
++++ b/coder_sniffer/DrupalPractice/Sniffs/Objects/GlobalFunctionSniff.php
+@@ -2,8 +2,6 @@
+ /**
+  * DrupalPractice_Sniffs_Objects_GlobalFunctionSniff.
+  *
+- * PHP version 5
+- *
+  * @category PHP
+  * @package  PHP_CodeSniffer
+  * @link     http://pear.php.net/package/PHP_CodeSniffer
