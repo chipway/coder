@@ -104,8 +104,8 @@ class Drupal_Sniffs_Files_LineLengthSniff extends Generic_Sniffs_Files_LineLengt
     /**
      * Returns the length of a defined line.
      *
-     * @param PHP_CodeSniffer_File $phpcsFile
-     * @param int                  $currentLine
+     * @param PHP_CodeSniffer_File $phpcsFile  The file being scanned.
+     * @param int                  $currentLine The current line.
      *
      * @return int
      */
